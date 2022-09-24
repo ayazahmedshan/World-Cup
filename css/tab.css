@@ -1,0 +1,138 @@
+
+@media only screen and (max-width:800px) {
+
+    header {
+        margin: 0px;
+    }
+
+    .text-section {
+        text-align: center;
+    }
+    .container {
+        width: 90%;
+    }
+    
+    .text-section h1 {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+
+    .text-section p {
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+
+    
+
+    .head-1 {
+        width: 100%;
+    }
+
+    .head-2 {
+        width: 100%;
+    }
+
+    .zoom {
+        margin: auto;
+        font-size: 14px;
+        padding: 11px;
+        margin-bottom: 12px;
+    }
+
+    .zoom:hover {
+        background-color: red;
+        cursor: pointer;
+        border-radius: 15px;
+        color: #fff;
+        transform: scale(1.1);
+    }
+
+    .img-thumb img {
+        width: 250px;
+    }
+
+    .img-thumb {
+        text-align: center;
+    }
+
+    .parent {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .feature {
+        margin-top: 10px;
+        height: 100%;
+    }
+
+    .feature-part {
+        flex-direction: column;
+    }
+
+    .feature-a {
+        width: 100%;
+        margin: auto;
+    }
+
+    .feature-b {
+        margin: auto;
+    }
+
+    .feature-text-part {
+        background-color: transparent;
+        padding: 0px 0px;
+    }
+
+    .cart-board {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+
+    .widt {}
+
+    .widt a {
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 10px 0px;
+        font-size: 14px;
+        transition: 0.75s;
+    }
+
+    .widt a:hover {
+        background-color: red;
+        height: 23px;
+        transform: scale(1);
+        width: 100%;
+    }
+
+    .text-part h5 {
+        padding-top: 30px;
+    }
+
+    article {
+        margin: 10px auto;
+        width: 300px;
+    }
+
+    article:last-child {
+        display: none;
+    }
+
+    footer {
+        height: 100%;
+        margin-top: 25px;
+    }
+
+    .text-part ul {
+        flex-direction: row;
+    }
+
+    .text-part ul li {
+        text-align: center;
+        padding: 10px 0px 25px;
+    }
+
+    .text-part ul li a {
+        padding: 0px 8px;
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap");
+* { margin: 0px; padding: 0px; }
+body { font-family: Poppins, sans-serif; }
+a { text-decoration: none; }
+li { list-style: none; }
+.container {width: 1200px;margin: auto;}
+
+header { margin-top: 50px;}
+.parent {display: flex; background-color:#161616; max-width: 1200px; border-radius: 15px;}
+.head-1 { width: 56%; }
+.head-2 { width: 40%; }
+.text-section { padding-top: 50px; padding-left: 55px; width: 65%; }
+.text-section h1 { font-size: 50px; color: rgb(255, 255, 255); }
+.text-section p { color: rgb(255, 255, 255); padding-bottom: 30px; width: 102%;}
+
+.text-section a:hover { }
+.zoom { color: black; background-color:#fff; padding: 15px 25px; border-radius: 5px;
+transition: 0.30s; display: block; width: 100px;}
+.zoom:hover { background-color: red; cursor: pointer;  border-radius: 15px;color: #fff; transform: scale(1.1);}
+
+
+
+.img-thumb {}
+.img-thumb img {width: 100%;position: relative;top: 7px;}
+
+
+/* Feature Section Start */
+
+.feature {
+    margin-top: 50px; height: 600px;
+}
+.feature-part {
+    display: flex;
+}
+.feature-a { }
+.feature-a {width: 25%;}
+.widt {background-color: #fff;text-align: center;border-radius: 15px;margin: 24px 25px;width: 252px;height: 60px;}
+.widt a {padding-top: 15px;display: block;font-size: 20px;  transition: transform .2s;color: #161616;}
+.widt a:hover{ background-color: #d71f1f; cursor: pointer; height: 45px;border-radius: 15px;color: #fff;transform: scale(1.1);}
+.feature-text-part {background-color: black;padding: 35px 0px;border-radius: 15px;width: 100%;}
+/* Feature ---B  */
+
+.feature-b {width: 75%;margin-left: 44px;}
+article {width: 260px;border-radius: 15px;height: 250px;border: 1px solid #E8E8E8;margin-bottom: 25px;}
+.img-banner{  display: flex;padding-top: 49px;margin: auto;}
+.img-banner h3{padding-top: 15px;}
+.img-banner img { margin: auto;}
+.flag { width: 93px; height: 56px;}
+.cart-board {display: grid;grid-template-columns: repeat(3, 1fr);column-gap: 37px;}
+.cart-board-text h3{width: 100%;font-size: 20px;margin: 20px 0px 10px;text-align: center;color: #161616;}
+.cart-board-text a {
+    margin-left: 15px;
+    display: block;
+}
+.cart-board-text { text-align: center;}
+.cart-board-text p { font-size: 16px;color: #4D4D4D;}
+.ico-parent {display: flex;margin-left: 15px;}
+.p-1 {}
+.p-1 i {}
+.p-1 span {padding-left: 10px;}
+.p-2 {margin-left: 40px;}
+.p-2 i { }
+.p-2 span {padding-left: 15px;}
+
+/* Feature Section End */
+
+
+/* Footer Part */
+footer {background-color: #161616;height: 60vh;}
+.text-part { }
+.text-part span { display: flex;width: 50%;margin: 15px auto;border: 1px solid rgba(255, 255, 255, 0.1);}
+.text-part h5{ text-align: center;color: #fff;font-size: 50px;padding-top: 70px;}
+.text-part ul{ display: flex;justify-content: center;padding-top: 20px;}
+.text-part ul li { }
+.text-part ul li a { padding: 25px;color: #fff;transition: 0.5s;}
+.text-part ul li a:hover { background-color: cadetblue;
+    padding: 10px 10px;
+    border-radius: 25px;
+    transform: scale(1.1);}
+
+
+/* VS */
+
+
+  
+  
+    /* MEDIA QUERRY */
+
+@media only screen and (max-width:480px) { 
+
+    header { margin: 0px;}
+    .text-section { text-align: center;}
+    .text-section h1 { font-size: 26px;}
+    .text-section p { font-size: 10px;padding-top: 38px;}
+    .container {width: 100%; }
+    .head-1 { width: 100%;}
+    .head-2 { width: 100%;}
+    .zoom { margin: auto;font-size: 14px;padding: 11px;}
+    .zoom:hover { background-color: red; cursor: pointer;  border-radius: 15px;color: #fff; transform: scale(1.1);}
+    .img-thumb img { width: 250px;}
+    .img-thumb  { text-align: center;}
+    .parent {display: grid; grid-template-columns: repeat(1, 1fr); }
+    .feature { margin-top: 10px;height: 100%;}
+    .feature-part {  flex-direction: column;}
+    .feature-a { width: 60%;margin: auto;}
+    .feature-b { margin: auto;}
+    .feature-text-part {background-color: transparent; }
+    .cart-board {grid-template-columns: repeat(1, 1fr);}
+    .widt { width: 200px;margin: auto auto 15px;}
+    .widt a { border: 1px solid black;
+        border-radius: 15px; padding: 10px 0px;font-size: 16px;}
+
+
+    article {margin: 10px auto; }
+    footer { height: 100%;}
+    .text-part ul { flex-direction: column;}
+    .text-part ul li { text-align: center;padding: 10px 0px 25px;}
+    .text-part ul li a { }
+}
